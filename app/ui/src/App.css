@@ -1,0 +1,150 @@
+
+body{
+    overflow: auto !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+.MuiBox-root{
+  overflow: hidden !important;
+}
+
+.MuiFormGroup-root{
+  padding-top: 10px;
+}
+.dash-card {
+    height: 14rem;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    margin: 0.5rem;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+}
+
+.l-bg-blue {
+    background: linear-gradient(to right, #0524ed71, rgb(0, 68, 255)) !important;
+    color: #fff;
+}
+
+.l-bg-blue:hover {
+    background: linear-gradient(to right, #0524eddc, rgba(132, 160, 238, 0.616)) !important;
+    color: #fff;
+}
+.l-bg-cherry {
+    background: linear-gradient(to right, #493240, #f09) !important;
+    color: #fff;
+}
+
+.l-bg-blue-dark {
+    background: linear-gradient(to right, #373b44, #4286f4) !important;
+    color: #fff;
+}
+
+.l-bg-green-dark {
+    background: linear-gradient(to right, #0a504a, #38ef7d) !important;
+    color: #fff;
+}
+
+.l-bg-orange-dark {
+    background: linear-gradient(to right, #a86008, #ffba56) !important;
+    color: #fff;
+}
+
+.dash-card .dash-card-statistic-3 .dash-card-icon-large .fas, .dash-card .dash-card-statistic-3 .dash-card-icon-large .far, .dash-card .dash-card-statistic-3 .dash-card-icon-large .fab, .dash-card .dash-card-statistic-3 .dash-card-icon-large .fal {
+    font-size: 110px;
+}
+
+.dash-card .dash-card-statistic-3 .dash-card-icon {
+    text-align: center;
+    color: white;
+}
+
+.l-bg-cyan {
+    background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+    color: #fff;
+}
+
+.l-bg-green {
+    background: linear-gradient(to right, #7deae66b 0%, #10f582 100%) !important;
+    color: #fff;
+}
+.l-bg-green:hover {
+    background: linear-gradient(to right, #10f582 100%, #94dfdd6b 0%) !important;
+    color: #fff;
+}
+
+.l-bg-orange {
+    background: linear-gradient(to right, #f98f0e73, #f19408) !important;
+    color: #fff;
+}
+.l-bg-orange:hover {
+    background: linear-gradient(to right,#f19408, #f98f0e73) !important;
+    color: #fff;
+}
+.l-bg-cyan {
+    background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+    color: #fff;
+}
+
+.l-bg-red {
+    background: linear-gradient(to right, #f54e2889, #f80404) !important;
+    color: #fff;
+}
+.l-bg-red:hover {
+    background: linear-gradient(to right, #f80404, #f54e2889) !important;
+    color: #fff;
+}
+.center-title
+{
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+

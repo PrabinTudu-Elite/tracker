@@ -1,0 +1,27 @@
+{
+  "name": "material-ui-vite",
+  "version": "7.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "^9.0.0",
+    "@mui/material": "latest",
+    "@mui/x-data-grid": "^9.0.4",
+    "@mui/x-date-pickers": "^9.0.4",
+    "axios": "^1.15.2",
+    "dayjs": "^1.11.20",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "^7.14.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest"
+  }
+}
